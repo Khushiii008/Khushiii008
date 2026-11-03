@@ -28,11 +28,3 @@ I'm a Computer Science Engineering student passionate about turning data into me
   <img width="49%" src="./profile/stats.svg" alt="GitHub Stats"/>
   <img width="49%" src="./profile/top-langs.svg" alt="Top Languages"/>
 </p>
-
-<b>Top Repositories</b>
-
-<div width="100%" align="center"><a href="https://github.com/Khushiii008/ppg-bp-estimation" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Khushiii008&repo=ppg-bp-estimation&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div><br /><br /><br /><br /><br /><br /><br />
-
-<br /><br /><br /><br /><br />
-
-<div width="100%" align="center"><a href="https://github.com/Khushiii008/customer-intelligence" align="left"><img align="left" width="45%" src="https://github-readme-stats.vercel.app/api/pin/?username=Khushiii008&repo=customer-intelligence&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en" /></a></div>
