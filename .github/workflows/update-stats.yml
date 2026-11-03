@@ -33,6 +33,23 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+
+      - name: Generate PPG Project Card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Khushiii008&repo=ppg-bp-estimation&bg_color=1c1917&title_color=0891b2&text_color=ffffff&hide_border=true
+          path: profile/ppg-project.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Customer Intelligence Card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Khushiii008&repo=customer-intelligence&bg_color=1c1917&title_color=0891b2&text_color=ffffff&hide_border=true
+          path: profile/customer-intelligence.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"
