@@ -35,8 +35,19 @@ jobs:
 
       - name: Commit generated cards
         run: |
-          git add profile/*.svg
-          git diff --cached --quiet && exit 0
-          git commit -m "Update GitHub profile statistics"
-          git pull --rebase origin main
-          git push
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+            git add profile/*.svg
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+              exit 0
+            fi
+
+            git commit -m "Update GitHub profile statistics"
+
+            git fetch origin main
+            git rebase origin/main
+
+            git push origin HEAD:main
